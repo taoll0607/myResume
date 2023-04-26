@@ -1,0 +1,14 @@
+
+.title-wthree{
+	text-align: center;
+    font-weight: bold;
+    padding: 1rem 0!important;
+}
+.title-wthree span{
+	padding: 0.5rem 1rem;
+    display: inline-block;
+    border-bottom: 5px solid #0dcaf0;
+}
+p{
+	word-break: break-all;
+}
