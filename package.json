@@ -17,7 +17,8 @@
     "unplugin-auto-import": "^0.15.2",
     "vue": "^3.2.47",
     "vue-router": "^4.0.13",
-    "vuex": "^4.0.2"
+    "vuex": "^4.0.2",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

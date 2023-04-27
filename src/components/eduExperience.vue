@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-6 left-box">
 					<div class="mengban">
-						教育经历
+						<span class="mengban-text wow animate__animated animate__bounce">教育经历</span>
 					</div>
 				</div>
 				<div class="col-md-6 right-box">
@@ -51,16 +51,20 @@
 		background-size: cover;
 		height: 50vh;
 		text-align: center;
-		display: table;
+		
 		padding: 0
 	}
 	.mengban{
 		height: 100%;
+		width: 100%;
 		background: rgba(0,0,0,0.5);
+		display: table;
+	}
+	.mengban-text{
 		display: table-cell;
 		vertical-align: middle;
 		font-size: 4em;
-		color: #fff
+		color: #fff;
 	}
 	::-webkit-scrollbar {
 		width: 8px;

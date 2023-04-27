@@ -38,8 +38,8 @@
 					</div>
 				</div>
 				<div class="col-md-6 right-box">
-					<div class="mengban">
-						工作经历
+					<div class="mengban ">
+						<span class="mengban-text wow animate__animated animate__bounce">工作经历</span>
 					</div>
 				</div>
 		  </div>
@@ -62,16 +62,19 @@
 		background-size: cover;
 		height: 50vh;
 		padding: 0;
-		display: table;
 		text-align:center; 
 	}
 	.mengban{
 		height: 100%;
+		width: 100%;
 		background: rgba(0,0,0,0.5);
+		display: table;
+	}
+	.mengban-text{
 		display: table-cell;
 		vertical-align: middle;
 		font-size: 4em;
-		color: #fff
+		color: #fff;
 	}
 	.desc{
 		padding: 55px 20px;

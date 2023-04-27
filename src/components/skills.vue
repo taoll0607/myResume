@@ -25,12 +25,12 @@
 <script setup>
 import Progress from '../components/progress.vue'
 const listCon = reactive([
-	{ name:'vue',pre:'90%' },
-	{ name:'react',pre:'80%' },
-	{ name:'typescript',pre:'80%' },
-	{ name:'webpack',pre:'75%'  },
-	{ name:'sql',pre:'50%'  },
-	{ name:'node',pre:'30%' }
+	{ name:'vue',pre:'90' },
+	{ name:'react',pre:'80' },
+	{ name:'typescript',pre:'80' },
+	{ name:'webpack',pre:'75'  },
+	{ name:'sql',pre:'50'  },
+	{ name:'node',pre:'30' }
 ])
 	
 </script>

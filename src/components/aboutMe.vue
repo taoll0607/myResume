@@ -3,7 +3,7 @@
 		<div class="container">
 		  <div class="tittle-agileinfo">
 				<h2 class="title-wthree">
-				  <span>关于我</span>
+				  <span class="wow animate__animated animate__backInLeft">关于我</span>
 				</h2>
 				
 			</div>

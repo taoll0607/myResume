@@ -14,6 +14,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import './iconfonts/iconfont.css';
 import './iconfonts/iconfont.js';
 import 'animate.css'
+//import 'wow.js/css/libs/animate.css'
 
 const app = createApp(App)
 app.use(router)

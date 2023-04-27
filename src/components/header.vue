@@ -46,7 +46,7 @@
 					</div>
 					<div class="clearfix"></div>
 				</header>
-				<div class="desc animated animate__backInDown  ">
+				<div class="desc wow animate__animated animate__backInDown">
 					<h3>Hi, 你好</h3>
 					<h1>我是  <span class="myname">陶璐璐</span></h1>
 					<h5>前端工程师 / 5年</h5>
@@ -67,8 +67,8 @@
 		{ name:'项目经理',id:4,key:'#project' },
 		{ name:'职业技能',id:5,key:'#skills' },
 		{ name:'教育经历',id:6,key:'#education'}
-	]
-	
+	];
+
 </script>
 <style scoped>
 	#home{
