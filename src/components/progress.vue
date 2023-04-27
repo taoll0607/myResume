@@ -7,7 +7,7 @@
 		  </div>
 		  
 			<div class="progress" role="progressbar" aria-label="Animated striped example" :aria-valuenow="item.pre" aria-valuemin="0" aria-valuemax="100">
-			  <div class="progress-bar progress-bar-striped bg-info" :style="{'width': item.pre+'%'}"></div>
+			  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" :style="{'width': item.pre+'%'}"></div>
 			</div>
 			
 		</div>
@@ -34,5 +34,6 @@ console.log(props.listCon,'props')
 	.right-text{
 		text-align: right;
 	}
+
 
 </style>

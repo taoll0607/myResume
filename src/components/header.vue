@@ -4,7 +4,7 @@
 	  	<div class="container">
 				<header>
 					<div class="header-bottom-agileits" >
-						<nav class="navbar navbar-expand-lg bg-body-tertiary">
+						<nav class="navbar navbar-expand-lg bg-body-tertiary" >
 						  <div class="container-fluid">
 						    <a class="navbar-brand logo" href="#">
 						    	<h1>							
@@ -19,6 +19,7 @@
 							    aria-controls="navbarText" 
 							    aria-expanded="false" 
 							    aria-label="Toggle navigation"
+							    @click="toggleFun"
 						    >
 						      <span class="navbar-toggler-icon"></span>
 						    </button>
@@ -68,6 +69,17 @@
 		{ name:'职业技能',id:5,key:'#skills' },
 		{ name:'教育经历',id:6,key:'#education'}
 	];
+	const flag = ref(0);
+	const toggleFun = ()=>{	
+		if(flag.value==1){
+			document.getElementById('navbarText').style.display = 'none';
+			flag.value = 0
+		}else{
+			document.getElementById('navbarText').style.display = 'block';
+			flag.value = 1
+		}
+	}
+	
 
 </script>
 <style scoped>
